@@ -12,15 +12,12 @@ function moveButtonRandomly() {
 }
 
 moveButton.addEventListener('click', moveButtonRandomly);
-
-
-
 const showButton = document.getElementById('yesButton');
 const gifImage = document.getElementById('gifImage');
 
 showButton.addEventListener('click', function () {
     var para = document.createElement('p');
-    para.innerText='haha! I knew it. Address: dubai, Dubai kuruku theru...varum pothu kasu eduthutu vanthurunga..:))';
+    para.innerText='See you at. Address: dubai, Dubai kuruku theru...varum pothu kasu eduthutu vanthurunga..:))';
 
     var container = document.getElementById('dog'); 
 
