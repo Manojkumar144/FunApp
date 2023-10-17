@@ -1,0 +1,40 @@
+.cat {
+    width: 200px;
+    height: 350px;
+}
+
+.options {
+    position: absolute;
+    top: 80%; /* Adjust the top value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+#moveButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesButton
+{
+    background-color: #007BFF;
+    border-radius: 5px;
+    margin-top:20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.hidden {
+    display: none;
+}
